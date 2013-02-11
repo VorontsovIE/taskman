@@ -1,4 +1,7 @@
 Taskman::Application.routes.draw do
+  get "macroape/index"
+  post "macroape/submit"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
