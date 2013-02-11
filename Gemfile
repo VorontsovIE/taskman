@@ -6,6 +6,7 @@ gem 'arel',      :git => 'git://github.com/rails/arel.git', :branch => '3-0-stab
 
 gem 'sqlite3'
 
+gem "haml-rails"
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -35,3 +36,8 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
+
+group :test, :development do
+  gem 'rspec'
+  gem 'rspec-rails'
+end
